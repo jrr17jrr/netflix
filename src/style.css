@@ -19,7 +19,7 @@
        rgba(0, 0, 0, 0.2) 80%,
        rgba(0, 0, 0, 0.8) 100%
      ),
-     url(../img/explosivo.webp);
+     url(../img/explosivo.jpeg);
    background-size: cover;
    padding: 0.26rem 0.75rem 0 0.75rem;
  }
@@ -315,3 +315,82 @@ a:hover {
    margin-bottom: 15px;
    padding: 1rem 4px;
  }
+
+
+
+ @media (max-width: 1200px) {
+    .cabecalho{
+        padding: 10%;
+
+    }
+    .cabecalho__menu{
+        justify-content: center;
+    }
+
+    .apresentacao{
+        flex-direction: column-reverse;
+        padding: 5%;
+    
+    }
+ 
+    .apresentacao__conteudo {
+        width: auto;
+        padding: 0% 0% 20% 0%;
+        justify-content: center;
+        
+    }
+    .apresentacao__conteudo__titulo{
+        justify-content: center;
+        align-items: center;
+    }
+
+}
+
+@media (max-width: 1200px) {
+  .app__hero {
+      padding: 0 1rem; /* Menos padding para telas menores */
+  }
+
+  .app__background {
+    height: 100vh;
+    background-image: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0.9) 5%,
+        rgba(0, 0, 0, 0.2) 20%,
+        rgba(0, 0, 0, 0.2) 80%,
+        rgba(0, 0, 0, 0.8) 100%
+      ),
+      url(../img/teste.jpeg);
+    background-size: cover;
+   width: 100%;
+  }
+  .header__logo img {
+      width: 4rem; /* Tamanho de logo reduzido */
+  }
+
+  .header__menu ul li {
+      padding-right: 0.5rem; /* Menos espaço entre itens do menu */
+  }
+
+  .banner {
+      width: 80%; /* Aumenta a largura do banner para mais visibilidade */
+  }
+
+  .banner__poster {
+      width: 50%; /* Ajuste para o poster ocupar mais espaço */
+      padding: 2%;
+  }
+
+  .banner__subtitle {
+      font-size: 2vw; /* Aumenta a fonte baseada na largura da viewport */
+      padding: 1rem 0; /* Ajuste no padding */
+  }
+
+  .category {
+      height: auto; /* Altura automática para melhor fluxo */
+  }
+
+  .item {
+      transform: scale(1); /* Desativa o efeito de scale em hover */
+  }
+}
