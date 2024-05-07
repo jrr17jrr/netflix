@@ -7,7 +7,7 @@
    padding: 0;
    font-family: Arial, Helvetica, sans-serif;
    background-color: black;
-   
+
  }
  
  .app__background {
@@ -37,12 +37,16 @@
    align-items: center;
  }
  
-.a__menu{
-  text-decoration: none; /* Remove o sublinhado */
-  color: rgba(255, 255, 255, 0.697);; /* Define a cor do texto para preto (ou qualquer outra cor que desejar) */
-  cursor: default; /* Muda o cursor para o padrão em vez do ponteiro de link */
+
+a{
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.697);
+  cursor: pointer;
 }
 
+a:hover {
+  color: white;
+}
 
  .header__logo img {
    width: 5.8rem;
